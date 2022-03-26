@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1c1c1c;
+    display: flex;  
+    height: 100%;
+    min-height: 800px;
+}
+
+.flex {
+    margin: auto;
+    width: 100%;
+    max-width: 500px;
+    padding: 40px 48px;
+    background-color: #1F2937;
+    border-radius: 8px;
+}
+
+.generator__header {
+    padding-top: 50px;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 40px;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.text--green {
+    color: #4ADF86;
+}
+
+p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #D5D4D8;
+}
+
+button {
+    border-style: none;
+}
+
+.password__button-el{
+    background-color: #10B981;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 9px 17px;
+
+    width: 223px;
+    height: 42px;
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    margin: 40px 0 28px 0;
+}
+
+button:hover {
+    background-color: #4ADF86;
+    cursor: pointer;
+}
+
+#button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    flex: none;
+    order: 1;
+    margin: 0px 12px;
+}
+
+#bolt {
+    width: 14px;
+    height: 18px;
+    position: relative;
+    left: 1.5%;
+    top: 15%;
+}
+
+.divider {
+    width: 100%;
+    height: 0px;
+
+    position:relative;
+
+    border: 1px solid #2F3E53;
+}
+
+.generator__results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 28px 0 0 0;
+    height: 120px;
+}
+
+.result {    
+    position: relative;
+    width: 47%;
+    height: 39px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #273549;
+    border-radius: 6px;
+    
+    color: #10B981;
+    font-weight: 400;
+}
+
+.elipses {
+    width:20px;
+    height: 5px;
+    opacity: 10%;
+}
